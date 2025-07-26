@@ -9,4 +9,4 @@ class settings(BaseSettings):
     env_file = ".env"
 
 
-settings = Settings()    
+settings = settings()    
