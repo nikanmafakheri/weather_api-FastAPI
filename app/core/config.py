@@ -1,6 +1,6 @@
 from pydantic import BaseSettings
 
-class Settings(BaseSettings):
+class settings(BaseSettings):
   OPENWEATHER_API_KEY: str
   REDIS_HOST: str
   REDIS_PORT: int  
@@ -9,4 +9,4 @@ class Settings(BaseSettings):
     env_file = ".env"
 
 
-Settings = Settings()    
+settings = Settings()    
