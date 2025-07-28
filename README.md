@@ -1,6 +1,5 @@
 # 🌤 Weather API
 
-🚧 **This project is still under active development.**  
 Features, endpoints, and documentation will be expanded over time.
 
 A **FastAPI-based Weather API** that fetches weather data, stores it in PostgreSQL, and uses **Redis caching** for better performance.  
